@@ -11,6 +11,7 @@ import {FormsModule} from '@angular/forms';
 import { TopnavComponent } from './topnav/topnav.component';
 import { RoomsComponent } from './rooms/rooms.component';
 import { HomeComponent } from './home/home.component';
+import { BookingComponent } from './booking/booking.component';
 
 
 
@@ -24,6 +25,7 @@ import { HomeComponent } from './home/home.component';
     TopnavComponent,
     RoomsComponent,
     HomeComponent,
+    BookingComponent,
  
     
   ],
