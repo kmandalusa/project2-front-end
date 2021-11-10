@@ -1,0 +1,28 @@
+<div class="container">
+    <div>
+        <h1 align="center">Room Details</h1>
+    </div>
+    <div>
+        <table class="table  table-striped">
+            <thead>
+             <tr>
+                
+                 <th>Room Id</th>
+                 <th>Number of Beds</th>
+                 <th>Price</th>
+                 
+             </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let room of rooms">
+                    
+                    <td>{{room.roomId}}</td>
+                    <td>{{room.numBeds}}</td> -->
+                    <td>{{room.price | currency:'USD'}}</td>
+                   
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+

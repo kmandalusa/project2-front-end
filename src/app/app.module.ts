@@ -9,6 +9,9 @@ import { LoginComponent } from './login/login.component';
 import { RegistrationFormComponent } from './registration-form/registration-form.component';
 import {FormsModule} from '@angular/forms';
 import { TopnavComponent } from './topnav/topnav.component';
+import { RoomsComponent } from './rooms/rooms.component';
+import { HomeComponent } from './home/home.component';
+
 
 
 @NgModule({
@@ -19,6 +22,9 @@ import { TopnavComponent } from './topnav/topnav.component';
     LoginComponent,
     RegistrationFormComponent,
     TopnavComponent,
+    RoomsComponent,
+    HomeComponent,
+ 
     
   ],
   imports: [

@@ -23,7 +23,15 @@ export class CustomerComponent implements OnInit {
     }
     this.getCustomers();
   }
- 
+ ngOnChanges(): void{
+  if (this.update) {
+    // Subscribe to the event emitter to receive an update event
+    this.update.subscribe((value: string) => {
+        this.getCustomers();
+    })
+  }
+  this.getCustomers();
+ }
   getCustomers() :void {
     console.log("Calling getCustomers");
     this.customerService.getCustomers()
