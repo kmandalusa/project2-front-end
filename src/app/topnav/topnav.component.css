@@ -1,13 +1,9 @@
 
-h1{
-    background-color: rgb(190, 68, 190);
-    text-align: center;
-    color: seashell;
-}
 #top{
     font-family:Helvetica, Arial, sans-serif;
     background-color: rgb(190, 68, 190);
     color: seashell  ; 
+    text-align: center;
     font-size: 500%; 
     padding: 25px;
 }
